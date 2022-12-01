@@ -5,4 +5,4 @@ calories_per_elf = File.open("puzzle_input_1.txt") do |f|
 end
 
 most_calories = calories_per_elf.max
-calories_per_elf.sort.reverse.take(3).sum
+top_three = calories_per_elf.sort.reverse.take(3).sum
